@@ -1,0 +1,16 @@
+# CONTENTS  
+- present indicative
+- imperfect 
+- past absolute 
+- future 
+- present conditional 
+- present subjunctive 
+- imperfect subjunctive 
+- present perfect 
+- past perfect 
+- past anterior
+- future perfect 
+- past conditional 
+- past subjunctive  
+- past perfect subjunctive 
+- imperative 
