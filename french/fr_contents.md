@@ -1,0 +1,17 @@
+# CONTENTS 
+
+- present indicative (présent de l'indicatif)
+- imperfect (imparfait de l'indicatif)
+- past absolute (passé simple)
+- future (futur)
+- present conditional (conditionnel) 
+- present subjunctive (présent du subjonctif)
+- imperfect subjunctive (imparfait du subjonctif)
+- present perfect (passé composé)
+- past perfect (plus-que-parfait de l'indicatif)
+- past anterior (passé anterieur)
+- future perfect (futur antérieur)
+- past conditional (conditionnel passé)
+- past subjunctive  (passé du subjonctif)
+- past perfect subjunctive (plus-que-parfait du subjonctif) 
+- imperative (impératif)
