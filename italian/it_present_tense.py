@@ -11,7 +11,7 @@ def tu_present(infinitive):
 # TO DO HANDLE EXCEPTIONS -- really should take from io stem not from infinitive stem
 def lui_lei_present(infinitive): 
     verb_ending = get_infinitive_ending(infinitive) 
-    conjugated_form = get_infinitive_stem(infinitive) 
+    conjugated_form = get_tu_stem(infinitive) 
     if verb_ending == 'are': 
         conjugated_form += 'a' 
     elif verb_ending == 'ere' or verb_ending == 'ire': 
@@ -20,15 +20,15 @@ def lui_lei_present(infinitive):
 
 # TO DO HANDLE NOI
 def noi_present(infinitive): 
-    return '' 
+    return verbs[infinitive][1] + 'amo' 
 
 # TO DO HANDLE VOI 
 def voi_present(infinitive): 
-    return '' 
+    return verbs[infinitive][1] + 'ete' 
 
 # TO DO HANDLE LORO 
 def loro_present(infinitive): 
-    return '' 
+    return verbs[infinitive][0] + 'no'
 
 
 ########### CONGIUNTIVO #########################
