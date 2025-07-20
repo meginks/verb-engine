@@ -1,5 +1,5 @@
 # verb-engine
-This will be an attempt to derive and compare the rules for conjugating verbs in Spanish, French, Italian and Portuguese using Python in a simple, declarative and human-readable way.
+This will be an attempt to derive and compare the rules for conjugating verbs in Spanish, French, Italian and Portuguese using Python in a simple, declarative and human-readable-but-in-code way.
 
 I started these verb conjugators in separate repositories for each of the following languages, but have since combined them into one here. 
  
