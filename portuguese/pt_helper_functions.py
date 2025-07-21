@@ -1,4 +1,7 @@
-
+# verb endings 
+er = 'er' 
+ar = 'ar' 
+ir = 'ir' 
 
 def get_infinitive_ending(infinitive): 
     last_2_char = infinitive[-2:] 

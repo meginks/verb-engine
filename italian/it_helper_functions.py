@@ -1,6 +1,8 @@
+from it_verbs import *
 
+############# HELPER METHODS ###########  
 
-############# HELPER METHODS ########### 
+# TO DO -- handle 'rre' verbs 
 def get_infinitive_ending(infinitive): 
     last_3_char = infinitive[-3:] 
     if (last_3_char == 'si'): # handle the case of reflexive infinitives
@@ -15,3 +17,9 @@ def get_infinitive_stem(infinitive):
     else: 
         infinitive_stem = infinitive[:-3] 
     return infinitive_stem 
+
+def get_io_stem(infinitive): 
+    return verbs[infinitive][0][:-1]  
+
+def get_tu_stem(infinitive): 
+    return verbs[infinitive][1][:-1] 

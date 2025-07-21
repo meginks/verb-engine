@@ -1,17 +1,12 @@
 from portuguese.pt_verbs import * 
 from portuguese.pt_helper_functions import *  
 
-# verb endings 
-er = 'er' 
-ar = 'ar' 
-ir = 'ir' 
 
 def present_eu(infinitive): 
     return verbs[infinitive][0]
 
 def present_tu(infinitive): 
     return verbs[infinitive][1] 
-
 
 def present_ele_ela_voce(infinitive):
     conjugated_form = verbs[infinitive][1][:-1] 
