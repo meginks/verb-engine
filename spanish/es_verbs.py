@@ -66,7 +66,7 @@ verbs = {
 'excluir': ('excluyo', 'excluyes', 'excluí', 'excluyendo', ('excluido',)), 
 'exportar': ('exporto', 'exportas', 'exporté', 'exportando', ('exportado',)), 
 'fabricar': ('fabrico', 'fabricas', 'fabriqué', 'fabricando', ('fabricado',)), 
-'freír': ('frío', 'fries', 'freí', 'friendo', ('frito',)), # tambien freído -- TODO convierte en tuple 
+'freír': ('frío', 'fries', 'freí', 'friendo', ('frito', 'freído')), 
 'gustar': ('gusto', 'gustas', 'gusté', 'gustando', ('gustado',)), 
 'haber': ('he', 'has', 'hube', 'habiendo', ('habido',)), 
 'hacer': ('hizo', 'hices', 'hice', 'haciendo', ('hecho',)), 
@@ -108,7 +108,7 @@ verbs = {
 'pesar': ('peso', 'pesas', 'pesé', 'pesando', ('pesado',)), 
 'poder': ('puedo', 'puedes', 'pude', 'pudiendo', ('podido',)), 
 'poner': ('pongo', 'pones', 'puse', 'poniendo', ('puesto',)), 
-'poseer': ('poseo', 'posees', 'poseí', 'poseyendo', ('poseído',)), # también poseído - TODO convierte en tuple 
+'poseer': ('poseo', 'posees', 'poseí', 'poseyendo', ('poseído',)),
 'postergar': ('postergo', 'postergas', 'postergué', 'postergando', ('postergado',)), 
 'predecir': ('predigo', 'predices', 'predije', 'prediciendo', ('predicho',)), 
 'preguntar': ('pregunto', 'preguntas', 'pregunté', 'preguntando', ('preguntado',)),
@@ -138,9 +138,9 @@ verbs = {
 'sonreír': ('sonrio', 'sonries', 'sonreí', 'sonriendo', ('sonreido',)), 
 'tachar': ('tacho', 'tachas', 'taché', 'tachando', ('tachado',)), 
 'tener': ('tengo', 'tienes', 'tuve', 'teniendo' ,('tenido',)), 
-'traducir': ('traduzco', 'traduces', 'traduje', 'traduciendo', ('traducido',)),  # TODO: complete the tuple with all forms
-'traer': ('traigo', 'traes', 'traje', 'trayendo', ('traído',)),  # TODO: complete the tuple with all forms
-'usar': ('uso' ,('usado',)), # TODO FINISH VERB 
+'traducir': ('traduzco', 'traduces', 'traduje', 'traduciendo', ('traducido',)), 
+'traer': ('traigo', 'traes', 'traje', 'trayendo', ('traído',)), 
+'usar': ('uso', 'usas', 'usé', 'usando', ('usado',)),
 'utilizar': ('utilizo', 'utilizas', 'utilicé', 'utilizando', ('utilizado',)), 
 'vacar': ('vaco', 'vacas', 'vaqué', 'vacando', ('vacado',)), 
 'vaciarse': ('vacío', 'vacías', 'vacié', 'vaciando', ('vaciado',)), 
@@ -149,9 +149,9 @@ verbs = {
 'vender': ('vendo', 'vendes', 'vendí', 'vendiendo', ('vendido',)), 
 'venir': ('vengo', 'vienes', 'vine', 'viniendo', ('venido',)), 
 'ver': ('veo', 'ves', 'vi', 'viendo' ,('visto',)), 
-'versar': ('verso' ,('versado',)),  # TODO: complete the tuple with all forms
-'verificar': ('verifico' ,('verificado',)), 
-'volver': ('vuelvo', 'vuelves', 'volver', 'volví', 'volviendo', ('vuelto',)), 
+'versar': ('verso', 'versas', 'versé', 'versando', ('versado',)), 
+'verificar': ('verifico', 'verificas', 'verifiqué', 'verificando', ('verificado',)), 
+'volver': ('vuelvo', 'vuelves', 'volví', 'volviendo', ('vuelto',)), 
 'yapar': ('yapo', 'yapas', 'yapé', 'yapando', ('yapado',)), 
 'yuxtaponer': ('yuxtapongo', 'yuxtapones', 'yuxtapuse', 'yuxtaponiendo', ('yuxtapuesto',)),
 'zafar': ('zafo', 'zafas', 'zafé', 'zafando', ('zafado',)), 
