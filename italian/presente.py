@@ -18,14 +18,17 @@ def make_present(infinitive):
 
 ## PRESENTE 
 
+# IO 
 def io_present(infinitive): 
     return verbs[infinitive][0]  
 
+# TU 
 def tu_present(infinitive): 
     return verbs[infinitive][1] 
 
 
 # TO DO HANDLE EXCEPTIONS -- really should take from io stem not from infinitive stem
+# LUI / LEI 
 def lui_lei_present(infinitive): 
     verb_ending = get_infinitive_ending(infinitive) 
     conjugated_form = get_tu_stem(infinitive) 
@@ -35,14 +38,14 @@ def lui_lei_present(infinitive):
         conjugated_form += 'e'
     return conjugated_form
 
-# TO DO HANDLE NOI
+# NOI
 def noi_present(infinitive): 
     return  get_tu_stem(infinitive)  + 'amo' 
 
-# TO DO HANDLE VOI 
+# VOI 
 def voi_present(infinitive): 
     return  get_tu_stem(infinitive)  + 'ete' 
 
-# TO DO HANDLE LORO 
+# TO LORO 
 def loro_present(infinitive): 
     return  get_tu_stem(infinitive) + 'ano'
