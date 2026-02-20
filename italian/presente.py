@@ -37,12 +37,12 @@ def lui_lei_present(infinitive):
 
 # TO DO HANDLE NOI
 def noi_present(infinitive): 
-    return verbs[infinitive][1] + 'amo' 
+    return  get_tu_stem(infinitive)  + 'amo' 
 
 # TO DO HANDLE VOI 
 def voi_present(infinitive): 
-    return verbs[infinitive][1] + 'ete' 
+    return  get_tu_stem(infinitive)  + 'ete' 
 
 # TO DO HANDLE LORO 
 def loro_present(infinitive): 
-    return verbs[infinitive][0] + 'no'
+    return  get_tu_stem(infinitive) + 'ano'
