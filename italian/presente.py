@@ -1,5 +1,19 @@
-from italian.it_verbs import * 
-from italian.it_helper_functions import *
+from it_verbs import * 
+from it_helper_functions import *
+
+
+# INFINITIVE -> PRESENT 
+# PARAMETER : STRING in infinitive form 
+#RETURN TYPE: TUPLE in this order (io, tu, lui / lei, noi, voi, loro)  
+# presente 
+def make_present(infinitive):  
+    conjugated_verb = (io_present(infinitive), 
+                       tu_present(infinitive), 
+                       lui_lei_present(infinitive),
+                       noi_present(infinitive), 
+                       voi_present(infinitive), 
+                       loro_present(infinitive)) 
+    return conjugated_verb  
 
 
 ## PRESENTE 
@@ -32,29 +46,3 @@ def voi_present(infinitive):
 # TO DO HANDLE LORO 
 def loro_present(infinitive): 
     return verbs[infinitive][0] + 'no'
-
-
-########### CONGIUNTIVO #########################
-## TO DO ## 
-## CONGIUNTIVO PRESENTE 
-
-def io_tu_lui_lei_congiuntivo_presente(infinitive): 
-    verb_ending = get_infinitive_ending(infinitive) 
-    conjugated_form = get_tu_stem(infinitive) 
-    if verb_ending == 'are': 
-        conjugated_form += 'i' 
-    elif verb_ending == 'ere' or verb_ending == 'ire': 
-        conjugated_form += 'a'
-    return conjugated_form
-
-# TO DO HANDLE NOI
-def noi_congiuntivo_presente(infinitive): 
-    return 
-
-# TO DO HANDLE VOI 
-def voi_congiuntivo_presente(infinitive): 
-    return 
-
-# TO DO HANDLE LORO 
-def loro_congiuntivo_presente(infinitive): 
-    return 

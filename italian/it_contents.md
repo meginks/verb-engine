@@ -1,16 +1,16 @@
 # CONTENTS  
-- present indicative
-- imperfect 
-- past absolute 
-- future 
-- present conditional 
-- present subjunctive 
-- imperfect subjunctive 
-- present perfect 
-- past perfect 
-- past anterior
-- future perfect 
-- past conditional 
-- past subjunctive  
-- past perfect subjunctive 
-- imperative 
+-- PRESENTE 
+-- IMPERFETTO 
+-- PASSATO REMOTO 
+-- FUTURE SEMPLICE 
+-- PASSATO PROSSIMO 
+-- TRAPASSATO PROSSIMO 
+-- TRAPASSATO REMOTO 
+-- FUTURO ANTERIORE 
+-- CONGIUNTIVO PRESENTE 
+-- CONGIUNTIVO PASSATO 
+-- CONGIUNTIVO IMPERFETTO 
+-- CONGIUNTIVO TRAPASSATO  
+-- CONDIZIONALE PRESENTE 
+-- CONDIZIONALE PASSATO 
+-- IMPERATIVO 
