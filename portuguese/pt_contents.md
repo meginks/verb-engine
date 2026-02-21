@@ -15,4 +15,11 @@
 - PRETÉRITO PERFEITO DO CONJUNTIVO
 - PRETÉRITO MAIS-QUE-PERFEITO DO CONJUNTIVO
 - FUTURO COMPOSTO DO CONJUNTIVO
-- IMPERATIVO (TO DO)
+- IMPERATIVO (TO DO) 
+
+
+TO DO -- 
+handle exceptions (Irregular Verbs) 
+pretty print compound tenses 
+add more verbs 
+imperative tense 
