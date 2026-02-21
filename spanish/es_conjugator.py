@@ -24,12 +24,6 @@ def make_present(infinitive):
     else: 
        print('Lo siento. No tenemos este verbo en el sistema.') 
 
-print('PRESENT TEST')
-print(make_present('tener')) 
-print(make_present('comprar')) 
-print(make_present('sentarse'))
-print(make_present('abrir'))
-print(make_present('alquilar'))
 
 # INFINITIVE -> IMPERFECT PAST 
 #RETURN TYPE : TUPLE in this order (yo, tú, él/ella/usted, nosotro/as, vosotros/as, ellos/ellas/ustedes) 
@@ -116,13 +110,33 @@ print(make_conditional('abrir'))
 # PARAMETER : STRING in infinitive form 
 #RETURN TYPE : TUPLE in this order (yo, tú, él/ella/usted, nosotro/as, vosotros/as, ellos/ellas/ustedes) 
 def make_present_subjunctive(infinitive): 
-    return 
+    if verbs[infinitive]:    
+        conjugated_verb = tuple((yo_el_subjuntivo_presente(infinitive), 
+                                 tu_subjuntivo_presente(infinitive),
+                                yo_el_subjuntivo_presente(infinitive),
+                                nosotros_subjuntivo_presente(infinitive),
+                                vosotros_subjuntivo_presente(infinitive),
+                                ellos_subjuntivo_presente(infinitive))); 
+        return conjugated_verb
+    else: 
+       print('Lo siento. No tenemos este verbo en el sistema.') 
 
 # INFINITIVE -> IMPERFECT SUBJUNCTIVE  
 # PARAMETER : STRING in infinitive form 
 #RETURN TYPE : TUPLE in this order (yo, tú, él/ella/usted, nosotro/as, vosotros/as, ellos/ellas/ustedes) 
-def make_imperfect_subjunctive(infinitive): 
-    return 
+def make_imperfect_subjunctive(infinitive):
+    if verbs[infinitive]:    
+        conjugated_verb = tuple((yo_el_subjuntivo_pasado(infinitive), 
+                                 tu_subjuntivo_pasado(infinitive),
+                                yo_el_subjuntivo_pasado(infinitive),
+                                nosotros_subjuntivo_pasado(infinitive),
+                                vosotros_subjuntivo_pasado(infinitive),
+                                ellos_subjuntivo_pasado(infinitive))); 
+        return conjugated_verb
+    else: 
+       print('Lo siento. No tenemos este verbo en el sistema.') 
+ 
+    
 ## COMPOUND TENSES 
 
 

@@ -1,19 +1,25 @@
 # CONTENTS  
-- personal infinitive 
-- present indicative
-- imperfect indicative 
-- preterit indicative 
-- simple pluperfect indicative
-- future indicative 
-- present perfect indicative 
-- past perfect / pluperfect indicative 
-- future perfect indicative 
-- present subjunctive 
-- imperfect subjunctive 
-- future subjunctive 
-- present perfect subjunctive 
-- past perfect / pluperfect subjunctive 
-- future perfect subjunctive
-- conditional 
-- conditional perfect
-- imperative 
+- PRESENTE 
+- PRETÉRITO IMPERFEITO
+- PRETÉRITO PERFEITO 
+- PRETÉRITO MAIS-QUE-PERFEITO 
+- CONDICIONAL IMPERFEITO
+- FUTURO IMPERFEITO
+- PRETÉRITO PERFEITO COMPOSTO
+- PRETÉRITO MAIS-QUE-PERFEITO COMPOSTO
+- FUTURO PERFEITO COMPOSTO
+- CONDICIONAL COMPOSTO
+- PRESENTE DO CONJUNTIVO 
+- PRETÉRITO IMPERFEITO DO CONJUNTIVO
+- FUTURO DO CONJUNTIVO
+- PRETÉRITO PERFEITO DO CONJUNTIVO
+- PRETÉRITO MAIS-QUE-PERFEITO DO CONJUNTIVO
+- FUTURO COMPOSTO DO CONJUNTIVO
+- IMPERATIVO (TO DO) 
+
+
+TO DO -- 
+handle exceptions (Irregular Verbs) 
+pretty print compound tenses 
+add more verbs 
+imperative tense 

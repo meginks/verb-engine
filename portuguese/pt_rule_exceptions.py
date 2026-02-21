@@ -1,0 +1,1 @@
+presente_do_conjuntivo_exceptions = ['dar', 'estar', 'ser', 'ir', 'haver', 'saber', 'querer']

@@ -1,3 +1,5 @@
+from pt_verbs import *
+from preterito_imperfeito import * 
 # verb endings 
 er = 'er' 
 ar = 'ar' 
@@ -15,4 +17,10 @@ def get_verb_stem(infinitive):
         verb_stem = infinitive[:-5] 
     else: 
         verb_stem = infinitive[:-2] 
-    return verb_stem
+    return verb_stem 
+
+def get_first_person_singular_stem(infinitive): 
+    return verbs[infinitive][0][:-1]
+
+def get_third_person_plural_preterite_stem(infinitive): 
+    return voces_eles_elas_preterito_imperfeito(infinitive)[:-3]
