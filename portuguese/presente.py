@@ -1,5 +1,5 @@
-from portuguese.pt_verbs import * 
-from portuguese.pt_helper_functions import *  
+from pt_verbs import * 
+from pt_helper_functions import *  
 
 
 def present_eu(infinitive): 
@@ -30,9 +30,14 @@ def present_eles_elas_voces(infinitive):
     if (verb_ending == ir or verb_ending == er):  
         conjugated_form =  verb_stem + 'em' 
     elif(verb_ending == ar): 
-        conjugated_form =  verb_stem + 'm'
+        conjugated_form =  verb_stem + 'am'
     return conjugated_form 
 
 
 def make_presente(infinitive): 
-    return
+    return (present_eu(infinitive), 
+            present_tu(infinitive), 
+            present_ele_ela_voce(infinitive), 
+            present_nos(infinitive), 
+            present_vos(infinitive), 
+            present_eles_elas_voces(infinitive))

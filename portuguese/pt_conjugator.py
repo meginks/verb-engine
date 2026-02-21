@@ -59,3 +59,6 @@ def portuguese_conjugator():
         print(make_preterito_perfeito(verb_selection))
     else: 
         print('Sorry. We do not have this tense in the system.') 
+
+
+portuguese_conjugator()
