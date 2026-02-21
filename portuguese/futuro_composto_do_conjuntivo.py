@@ -15,3 +15,6 @@ def vos_futuro_composto_congiuntivo(infinitive):
 
 def voces_eles_elas_futuro_composto_congiuntivo(infinitive): 
     return  
+
+def make_futuro_composto_do_conjuntivo(infinitive): 
+    return

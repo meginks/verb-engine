@@ -16,3 +16,6 @@ def vos_simple_preterito_mais_que_perfeito(infinitive):
 
 def voces_eles_elas_simple_preterito_mais_que_perfeito(infinitive): 
     return  
+
+def make_preterito_mais_que_perfeito(infinitive): 
+    return

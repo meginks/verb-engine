@@ -15,3 +15,7 @@ def vos_presente_do_conjuntivo(infinitive):
 
 def voces_eles_elas_presente_do_conjuntivo(infinitive): 
     return  
+
+
+def make_presente_do_conjuntivo(infinitive): 
+    return

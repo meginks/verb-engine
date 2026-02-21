@@ -15,3 +15,6 @@ def vos_preterito_perfeito_conjuntivo(infinitive):
 
 def voces_eles_elas_preterito_perfeito_conjuntivo(infinitive): 
     return  
+
+def make_preterito_perfeito_do_conjuntivo(infinitive): 
+    return

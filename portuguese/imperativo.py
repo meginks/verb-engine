@@ -6,3 +6,7 @@ def imperative_singular():
 
 def imperative_plural(): 
     return 
+
+
+def make_imperativo(infinitive): 
+    return

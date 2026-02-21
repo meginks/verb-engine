@@ -15,3 +15,6 @@ def vos_futuro_perfeito_composto(infinitive):
 
 def voces_eles_elas_futuro_perfeito_composto(infinitive): 
     return  
+
+def make_futuro_perfeito_composto(infinitive): 
+    return

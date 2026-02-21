@@ -16,3 +16,6 @@ def vos_condicional_composto(infinitive):
 
 def voces_eles_elas_condicional_composto(infinitive): 
     return 
+
+def make_condicional_composto(infinitive): 
+    return

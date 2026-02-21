@@ -32,3 +32,7 @@ def present_eles_elas_voces(infinitive):
     elif(verb_ending == ar): 
         conjugated_form =  verb_stem + 'm'
     return conjugated_form 
+
+
+def make_presente(infinitive): 
+    return

@@ -17,3 +17,6 @@ def vos_preterito_mqp_composto(infinitive):
 
 def voces_eles_elas_preterito_mqp_composto(infinitive): 
     return  
+
+def make_preterito_mqp_composto(infinitive): 
+    return

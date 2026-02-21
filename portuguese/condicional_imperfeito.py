@@ -15,4 +15,7 @@ def vos_condicional(infinitive):
     return 
 
 def voces_eles_elas_condicional(infinitive): 
-    return 
+    return  
+
+def make_condicional_imperfeito(infinitive): 
+    return

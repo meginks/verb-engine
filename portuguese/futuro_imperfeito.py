@@ -16,3 +16,6 @@ def vos_futuro_imperfeito(infinitive):
 
 def voces_eles_elas_futuro_imperfeito(infinitive): 
     return  
+
+def make_futuro_imperfeito(infinitive): 
+    return
