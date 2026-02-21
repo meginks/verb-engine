@@ -7,64 +7,39 @@ def eu_preterito_imperfeito(infinitive):
     verb_stem = get_verb_stem(infinitive)
     conjugated_form = ''
     if (verb_ending == ar):  
-        conjugated_form =  verb_stem + 'ei' 
-    elif(verb_ending == er):
-        conjugated_form =  verb_stem + 'i'
-    elif(verb_ending == ir):
-        conjugated_form =  verb_stem + 'i'
+        conjugated_form =  verb_stem + 'ava' 
+    elif(verb_ending == er or verb_ending == ir):
+        conjugated_form =  verb_stem + 'ia'
     return conjugated_form  
 
 def tu_preterito_imperfeito(infinitive):
-    verb_ending = get_infinitive_ending(infinitive)  
-    verb_stem = get_verb_stem(infinitive)
-    conjugated_form = ''
-    if (verb_ending == ar):  
-        conjugated_form =  verb_stem + 'aste' 
-    elif(verb_ending == er):
-        conjugated_form =  verb_stem + 'este'
-    elif(verb_ending == ir):
-        conjugated_form =  verb_stem + 'iste'
-    return conjugated_form  
+    return eu_preterito_imperfeito(infinitive) + 's'   
 
 def voce_ele_ela_preterito_imperfeito(infinitive): 
-    verb_ending = get_infinitive_ending(infinitive)  
-    verb_stem = get_verb_stem(infinitive)
-    conjugated_form = ''
-    if (verb_ending == ar):  
-        conjugated_form =  verb_stem + 'ou' 
-    elif(verb_ending == er):
-        conjugated_form =  verb_stem + 'eu'
-    elif(verb_ending == ir):
-        conjugated_form =  verb_stem + 'iu'
-    return conjugated_form  
+    return eu_preterito_imperfeito(infinitive) 
 
 def nos_preterito_imperfeito(infinitive): 
     verb_ending = get_infinitive_ending(infinitive)  
     verb_stem = get_verb_stem(infinitive)
     conjugated_form = ''
     if (verb_ending == ar):  
-        conjugated_form =  verb_stem + 'amos' 
-    elif(verb_ending == er):
-        conjugated_form =  verb_stem + 'emos'
-    elif(verb_ending == ir):
-        conjugated_form =  verb_stem + 'imos'
+        conjugated_form =  verb_stem + 'ávamos' 
+    elif(verb_ending == er or verb_ending == ir):
+        conjugated_form =  verb_stem + 'íamos'
     return conjugated_form   
 
 def vos_preterito_imperfeito(infinitive): 
-   conjugated_form = tu_preterito_imperfeito(infinitive) + 's'
-   return conjugated_form  
-
-def voces_eles_elas_preterito_imperfeito(infinitive): 
     verb_ending = get_infinitive_ending(infinitive)  
     verb_stem = get_verb_stem(infinitive)
     conjugated_form = ''
     if (verb_ending == ar):  
-        conjugated_form =  verb_stem + 'aram' 
-    elif(verb_ending == er):
-        conjugated_form =  verb_stem + 'eram'
-    elif(verb_ending == ir):
-        conjugated_form =  verb_stem + 'iram'
-    return conjugated_form  
+        conjugated_form =  verb_stem + 'áveis' 
+    elif(verb_ending == er or verb_ending == ir):
+        conjugated_form =  verb_stem + 'íeis'
+    return conjugated_form 
+
+def voces_eles_elas_preterito_imperfeito(infinitive): 
+    return eu_preterito_imperfeito(infinitive) + 'm'  
 
 def make_preterito_imperfeito(infinitive): 
     return (eu_preterito_imperfeito(infinitive),
