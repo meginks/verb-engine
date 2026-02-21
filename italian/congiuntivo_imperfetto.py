@@ -1,12 +1,3 @@
-# TO DO HANDLE IMPERFECT / imperfetto 
-def make_imperfect(infinitive): 
-    conjugated_verb = (io_imperfetto(infinitive), 
-                       tu_imperfetto(infinitive), 
-                       lui_lei_imperfetto(infinitive),
-                       noi_imperfetto(infinitive), 
-                       voi_imperfetto(infinitive), 
-                       loro_imperfetto(infinitive)) 
-    return conjugated_verb   
 
 
 
@@ -31,3 +22,11 @@ def voi_congiuntivo_imperfetto(infinitive):
 
 def loro_congiuntivo_imperfetto(infinitive): 
     return 
+
+def make_congiuntivo_imperfetto(infinitive): 
+    return (io_congiuntivo_imperfetto(infinitive),
+            tu_congiuntivo_imperfetto(infinitive), 
+            lui_lei_congiuntivo_imperfetto(infinitive), 
+            noi_congiuntivo_imperfetto(infinitive), 
+            voi_congiuntivo_imperfetto(infinitive), 
+            loro_congiuntivo_imperfetto(infinitive))

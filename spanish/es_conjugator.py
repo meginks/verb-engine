@@ -24,12 +24,6 @@ def make_present(infinitive):
     else: 
        print('Lo siento. No tenemos este verbo en el sistema.') 
 
-print('PRESENT TEST')
-print(make_present('tener')) 
-print(make_present('comprar')) 
-print(make_present('sentarse'))
-print(make_present('abrir'))
-print(make_present('alquilar'))
 
 # INFINITIVE -> IMPERFECT PAST 
 #RETURN TYPE : TUPLE in this order (yo, tú, él/ella/usted, nosotro/as, vosotros/as, ellos/ellas/ustedes) 

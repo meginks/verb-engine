@@ -15,3 +15,9 @@ def voi_imperativo(infinitive):
 def loro_imperativo(infinitive): 
     return
 
+def make_imperativo(infinitive): 
+    return (tu_imperativo(infinitive), 
+            lui_lei_imperativo(infinitive), 
+            noi_imperativo(infinitive), 
+            voi_imperativo(infinitive), 
+            loro_imperativo(infinitive))

@@ -19,9 +19,8 @@ def voi_trapassato_prossimo(infinitive):
 def loro_trapassato_prossimo(infinitive): 
     return
 
-
 # TO DO HANDLE PLUPERFECT / trapassato prossimo
-def make_pluperfect(infinitive):
+def make_trapassato_prossimo(infinitive):
     conjugated_verb = (io_trapassato_prossimo(infinitive), 
                        tu_trapassato_prossimo(infinitive), 
                        lui_lei_trapassato_prossimo(infinitive),

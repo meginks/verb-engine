@@ -19,4 +19,12 @@ def voi_congiuntivo_presente(infinitive):
 
 # TO DO HANDLE LORO 
 def loro_congiuntivo_presente(infinitive): 
-    return 
+    return  
+
+def make_congiuntivo_presente(infinitive): 
+    return (io_tu_lui_lei_congiuntivo_presente(infinitive),
+            io_tu_lui_lei_congiuntivo_presente(infinitive), 
+            io_tu_lui_lei_congiuntivo_presente(infinitive), 
+            noi_congiuntivo_presente(infinitive), 
+            voi_congiuntivo_presente(infinitive), 
+            loro_congiuntivo_presente(infinitive))

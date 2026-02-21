@@ -20,7 +20,7 @@ def loro_imperfetto(infinitive):
 
 
 # TO DO HANDLE IMPERFECT / imperfetto 
-def make_imperfect(infinitive): 
+def make_imperfetto(infinitive): 
     conjugated_verb = (io_imperfetto(infinitive), 
                        tu_imperfetto(infinitive), 
                        lui_lei_imperfetto(infinitive),
