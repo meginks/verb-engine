@@ -9,10 +9,9 @@
 - imperative (présent de l'impératif) 
 - present perfect (passé composé) 
 - pluperfect (plus-que-parfait de l'indicatif)
-
-- preterite perfect (passé anterieur) TODO
-- future perfect (futur antérieur) TODO
-- past conditional (conditionnel passé) TODO
+- preterite perfect (passé anterieur)
+- future perfect (futur antérieur)
+- past conditional (conditionnel passé)
 
 - present subjunctive (présent du subjonctif) TODO
 - imperfect subjunctive (imparfait du subjonctif) TODO
