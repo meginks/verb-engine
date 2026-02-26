@@ -12,9 +12,7 @@
 - preterite perfect (passé anterieur)
 - future perfect (futur antérieur)
 - past conditional (conditionnel passé)
-
-- present subjunctive (présent du subjonctif) TODO
-- imperfect subjunctive (imparfait du subjonctif) TODO
-
-- past subjunctive  (passé du subjonctif) TODO
-- past perfect subjunctive (plus-que-parfait du subjonctif) TODO 
+- present subjunctive (présent du subjonctif)
+- past subjunctive  (passé du subjonctif) 
+- imperfect subjunctive (imparfait du subjonctif)
+- past perfect subjunctive (plus-que-parfait du subjonctif) 
