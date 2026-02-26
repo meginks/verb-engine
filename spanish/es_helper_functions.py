@@ -1,5 +1,6 @@
 from spanish.es_rule_exceptions import * 
-from spanish.es_verbs import * 
+from spanish.es_verbs import *  
+import ellos_preterito 
 # from past_tense import ellos_preterito 
 
 ############################## HELPER METHODS ##################################
@@ -37,3 +38,8 @@ def get_infinitive_minus_r(infinitive):
 # make sure to handle cases where yo present form ends in -oy (-oy should be removed to form yo stem)
 def get_yo_stem(infinitive): 
     return  
+
+
+def get_3_pers_pl_preterite_stem(infinitive): 
+    third_pers_pl_preterite = ellos_preterito(infinitive) 
+    return third_pers_pl_preterite[:-2] 
