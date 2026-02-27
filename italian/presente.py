@@ -17,23 +17,34 @@ def tu_present(infinitive):
 def lui_lei_present(infinitive): 
     verb_ending = get_infinitive_ending(infinitive) 
     conjugated_form = get_tu_stem(infinitive) 
-    if verb_ending == 'are': 
+    if verb_ending == are: 
         conjugated_form += 'a' 
-    elif verb_ending == 'ere' or verb_ending == 'ire': 
+    elif verb_ending == ere or verb_ending == ire: 
         conjugated_form += 'e'
     return conjugated_form
 
 # NOI
 def noi_present(infinitive): 
-    return  get_tu_stem(infinitive)  + 'amo' 
+    return  get_infinitive_stem(infinitive)  + 'iamo' 
 
 # VOI 
 def voi_present(infinitive): 
-    return  get_tu_stem(infinitive)  + 'ete' 
+    ending = get_infinitive_ending(infinitive) 
+    if ending == are: 
+        return  get_infinitive_stem(infinitive)  + 'ate' 
+    elif ending == ere: 
+        return  get_infinitive_stem(infinitive)  + 'ete' 
+    elif ending == ire: 
+        return  get_infinitive_stem(infinitive)  + 'ite' 
 
 # TO LORO 
 def loro_present(infinitive): 
-    return  get_tu_stem(infinitive) + 'ano'
+    ending = get_infinitive_ending(infinitive) 
+    if ending == are: 
+        return  get_infinitive_stem(infinitive)  + 'ano' 
+    elif ending == ere or ending == ire: 
+        return  get_infinitive_stem(infinitive)  + 'ono' 
+ 
 
 
 # INFINITIVE -> PRESENT 
