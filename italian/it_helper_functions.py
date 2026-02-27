@@ -36,3 +36,6 @@ def get_tu_stem(infinitive):
 def get_third_person_plural_present_stem(infinitive): 
    return loro_present(infinitive)[:-3] 
     
+
+def get_infinitive_minus_last_letter(infinitive): 
+    return infinitive[:-1] 

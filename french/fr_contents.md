@@ -1,6 +1,4 @@
 # CONTENTS 
-
-- INDICATIF
 - present indicative (présent de l'indicatif)
 - imperfect (imparfait de l'indicatif)
 - past absolute (passé simple)
